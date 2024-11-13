@@ -1,0 +1,5 @@
+Reflectance intensity refers to the measure of the amount of light that is reflected off a surface compared to the amount of light originally shone on it. This is often used in remote sensing, imaging technology, and computer vision.
+
+In the context of LiDAR systems (commonly used in autonomous vehicles or 3D mapping), reflectance intensity can provide additional information about the scanned environment. When a LiDAR system emits a laser pulse, this pulse reflects off objects and returns to the sensor. The time it takes for the pulse to return provides distance information (forming a point cloud), while the intensity of the returned signal can give clues about the properties of reflecting surfaces.
+
+For example, a smooth and light-colored surface like painted metal might reflect more light back to the sensor than a rough and dark surface like asphalt. Thus, by analyzing reflectance intensities along with point cloud data, more detailed understanding about an environment or an object can be achieved.
